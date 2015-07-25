@@ -50,7 +50,7 @@ minetest.register_tool("cobble_compression:pick_triplecompressed", {
 		damage_groups = {fleshy=3},
 	},
 })
-minetest.register_tool("cobble_compression:pick_quadcompressed", {
+minetest.register_tool("cobble_compression:pick_quadruplecompressed", {
 	description = "Quadruple Compressed Cobblestone Pickaxe",
 	inventory_image = "default_tool_stonepick.png",
 	tool_capabilities = {
@@ -152,7 +152,7 @@ minetest.register_tool("cobble_compression:shovel_triplecompressed", {
 		damage_groups = {fleshy=2},
 	},
 })
-minetest.register_tool("cobble_compression:shovel_quadcompressed", {
+minetest.register_tool("cobble_compression:shovel_quadruplecompressed", {
 	description = "Quadruple Compressed Cobblestone Shovel",
 	inventory_image = "default_tool_stoneshovel.png",
 	wield_image = "default_tool_stoneshovel.png^[transformR90",
@@ -256,7 +256,7 @@ minetest.register_tool("cobble_compression:axe_triplecompressed", {
 		damage_groups = {fleshy=3},
 	},
 })
-minetest.register_tool("cobble_compression:axe_quadcompressed", {
+minetest.register_tool("cobble_compression:axe_quadruplecompressed", {
 	description = "Quadruple Compressed Cobblestone Axe",
 	inventory_image = "default_tool_stoneaxe.png",
 	tool_capabilities = {
@@ -367,7 +367,7 @@ minetest.register_tool("cobble_compression:sword_triplecompressed", {
 		damage_groups = {fleshy=4},
 	}
 })
-minetest.register_tool("cobble_compression:sword_quadcompressed", {
+minetest.register_tool("cobble_compression:sword_quadruplecompressed", {
 	description = "Quadruple Compressed Cobblestone Sword",
 	inventory_image = "default_tool_stonesword.png",
 	tool_capabilities = {

@@ -25,7 +25,7 @@ minetest.register_craft({
 				}
 })
 minetest.register_craft({
-		output = "cobble_compression:quadcompressed",
+		output = "cobble_compression:quadruplecompressed",
 		recipe = {
 				{"cobble_compression:triplecompressed", "cobble_compression:triplecompressed", "cobble_compression:triplecompressed"},
 				{"cobble_compression:triplecompressed", "cobble_compression:triplecompressed", "cobble_compression:triplecompressed"},
@@ -35,9 +35,9 @@ minetest.register_craft({
 minetest.register_craft({
 		output = "cobble_compression:quintuplecompressed",
 		recipe = {
-				{"cobble_compression:quadcompressed", "cobble_compression:quadcompressed", "cobble_compression:quadcompressed"},
-				{"cobble_compression:quadcompressed", "cobble_compression:quadcompressed", "cobble_compression:quadcompressed"},
-				{"cobble_compression:quadcompressed", "cobble_compression:quadcompressed", "cobble_compression:quadcompressed"},
+				{"cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed"},
+				{"cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed"},
+				{"cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed"},
 				}
 })
 minetest.register_craft({
@@ -138,9 +138,9 @@ minetest.register_craft({
 	}
 })
 minetest.register_craft({
-	output = "cobble_compression:pick_quadcompressed",
+	output = "cobble_compression:pick_quadruplecompressed",
 	recipe = {
-		{"cobble_compression:quadcompressed", "cobble_compression:quadcompressed", "cobble_compression:quadcompressed"},
+		{"cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed"},
 		{"", "group:stick", ""},
 		{"", "group:stick", ""},
 	}
@@ -206,9 +206,9 @@ minetest.register_craft({
 	}
 })
 minetest.register_craft({
-	output = "cobble_compression:shovel_quadcompressed",
+	output = "cobble_compression:shovel_quadruplecompressed",
 	recipe = {
-		{"", "cobble_compression:quadcompressed", ""},
+		{"", "cobble_compression:quadruplecompressed", ""},
 		{"", "group:stick", ""},
 		{"", "group:stick", ""},
 	}
@@ -273,10 +273,10 @@ minetest.register_craft({
 	}
 })
 minetest.register_craft({
-	output = "cobble_compression:axe_quadcompressed",
+	output = "cobble_compression:axe_quadruplecompressed",
 	recipe = {
-		{"cobble_compression:quadcompressed", "cobble_compression:quadcompressed", ""},
-		{"cobble_compression:quadcompressed", "group:stick", ""},
+		{"cobble_compression:quadruplecompressed", "cobble_compression:quadruplecompressed", ""},
+		{"cobble_compression:quadruplecompressed", "group:stick", ""},
 		{"", "group:stick", ""},
 	}
 })
@@ -340,10 +340,10 @@ minetest.register_craft({
 	}
 })
 minetest.register_craft({
-	output = 'cobble_compression:sword_quadcompressed',
+	output = 'cobble_compression:sword_quadruplecompressed',
 	recipe = {
-		{'cobble_compression:quadcompressed'},
-		{'cobble_compression:quadcompressed'},
+		{'cobble_compression:quadruplecompressed'},
+		{'cobble_compression:quadruplecompressed'},
 		{'group:stick'},
 	}
 })
