@@ -15,5 +15,7 @@ See "Authors of media files" section for licenses and authors of media assets.
 
 ## Authors of media files
 
+Brane praefect ([CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/))
+Neuromancer ([CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/))
 Veikko Mäkelä ([CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/))
 * Cobblestone node texures (cc_node_01.png, cc_node_02.png, [...] cc_node_08.png) are all based on default_cobble.png texture by Neuromancer, which is based on texture by Brane praefect
