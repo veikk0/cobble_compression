@@ -85,11 +85,11 @@ minetest.register_craft({
 minetest.register_craft({
 		type = "shapeless",
 		output = "cobble_compression:triplecompressed 9",
-		recipe = {"cobble_compression:quadcompressed"},
+		recipe = {"cobble_compression:quadruplecompressed"},
 })
 minetest.register_craft({
 		type = "shapeless",
-		output = "cobble_compression:quadcompressed 9",
+		output = "cobble_compression:quadruplecompressed 9",
 		recipe = {"cobble_compression:quintuplecompressed"},
 })
 minetest.register_craft({
