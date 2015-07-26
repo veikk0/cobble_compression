@@ -64,6 +64,12 @@ minetest.register_craft({
 				{"cobble_compression:septupletuplecompressed", "cobble_compression:septupletuplecompressed", "cobble_compression:septupletuplecompressed"},
 				}
 })
+minetest.register_craft({
+		type = "cooking",
+		output = "default:obsidian",
+		recipe = "cobble_compression:triplecompressed",
+		cooktime = 60,
+})
 
 -- Reverse block recipes
 
