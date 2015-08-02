@@ -45,6 +45,7 @@ minetest.register_node("cobble_compression:sextuplecompressed", {
 minetest.register_node("cobble_compression:septuplecompressed", {
 		description = "Septuple Compressed Cobblestone",
 		tiles = {"cc_node_07.png"},
+		disable_jump = 1,
 		groups = {cracky=3},
 		sounds = default.node_sound_stone_defaults(),
 })
@@ -52,6 +53,7 @@ minetest.register_node("cobble_compression:septuplecompressed", {
 minetest.register_node("cobble_compression:octuplecompressed", {
 		description = "Octuple Compressed Cobblestone",
 		tiles = {"cc_node_08.png"},
+		disable_jump = 1,
 		groups = {cracky=3},
 		sounds = default.node_sound_stone_defaults(),
 })
